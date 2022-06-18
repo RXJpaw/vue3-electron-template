@@ -8,7 +8,7 @@
   },
   "main": "electron/main.js",
   "scripts": {
-    "vue:serve": "vue-cli-service serve --port 8069 --mode production",
+    "vue:serve": "vue-cli-service serve --port 8069",
     "vue:build": "vue-cli-service build",
     "vue:lint": "vue-cli-service lint",
     "electron:serve": "electron .",
