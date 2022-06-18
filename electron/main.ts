@@ -5,7 +5,7 @@ import createProtocol from "./createProtocol";
 import path from 'path'
 
 const customProtocol = "yourprotocolname"
-const isDevelopment = process.env.NODE_ENV !== 'production'
+const isDevelopment = !app.isPackaged
 protocol.registerSchemesAsPrivileged([{ scheme: customProtocol, privileges: { secure: true, standard: true } }])
 
 async function createWindow () {
