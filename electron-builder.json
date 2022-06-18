@@ -1,0 +1,22 @@
+{
+    "directories": {
+        "output": "dist_electron"
+    },
+    "files": [
+        {
+            "from": "dist_vue",
+            "to": "",
+            "filter": ["!**/*.ts"]
+        },
+        {
+            "from": "electron",
+            "to": "electron",
+            "filter": ["!**/*.ts"]
+        },
+        "package.json"
+    ],
+    "win": {
+        "signAndEditExecutable": true,
+        "target": ["dir"]
+    }
+}
