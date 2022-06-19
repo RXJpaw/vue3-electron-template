@@ -12,6 +12,7 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "sourceMap": false,
+    "noImplicitThis": false,
     "baseUrl": ".",
     "types": [
       "webpack-env"
